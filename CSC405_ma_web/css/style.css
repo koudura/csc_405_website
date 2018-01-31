@@ -1,0 +1,89 @@
+html {
+}
+
+body {
+    color: black;
+    background-image: url("../img/da_division.jpg");
+    background-repeat: no-repeat;
+    background-position: inherit;
+    font-family: Lithos Pro Regular, Arial, sans-serif;
+    line-height: 1.4em;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-con {
+    margin: 120px 20px 30px;
+    background-color: transparent;
+    height: 100%;
+    background-size: 100%;
+
+}
+
+.name-con {
+    width: inherit;
+    height: inherit;
+    margin-left: 46%;
+}
+
+#site-logo {
+    width: 170px;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 45%;
+    background-image: url("../img/trident_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#nav-bar {
+    align-self: center;
+    width: 0;
+    margin-left: 300px;
+}
+
+ul {
+    width: 53vh;
+    list-style-type: none;
+    margin: 50px;
+    margin-left: 20%;;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: absolute;
+    border-bottom: solid;
+    border-top-style: solid;
+}
+
+li {
+    align-items: center;
+    font-size: 24px;
+    margin-left: 0;
+    float: left;
+    padding-right: 1.725%;
+}
+
+li:last-child{
+    width: 32%
+}
+
+li:first-child{
+    width: 23%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px 10px;
+    text-decoration: solid;
+}
+
+li a:hover:not(.active) {
+    background-color: whitesmoke;
+}
+
+li a:hover {
+    background-color: lightblue;
+}

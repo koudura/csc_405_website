@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFCCD5AF-34C2-4586-8A28-9F0B17CFC669}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\xampp\htdocs\prototype-Ninci\index.html = ..\..\..\..\..\..\xampp\htdocs\prototype-Ninci\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{112A9F1C-1469-42A1-8316-F58F66A5B543}"
+	ProjectSection(SolutionItems) = preProject
+		test\main.css = test\main.css
+		test\testdiv.html = test\testdiv.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{E8E3A40F-C6D0-41A1-95AF-7B9B6B78EA9E}"
+	ProjectSection(SolutionItems) = preProject
+		css\doc.css = css\doc.css
+		css\style.css = css\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{17B29E38-6419-4FF9-8782-52449F1F92CF}"
+	ProjectSection(SolutionItems) = preProject
+		docs\contact.html = docs\contact.html
+		docs\play.html = docs\play.html
+		docs\work.html = docs\work.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{8CF3AB22-CA7A-4616-8A60-3998A2533440}"
+	ProjectSection(SolutionItems) = preProject
+		img\battlefield_4.jpg = img\battlefield_4.jpg
+		img\COD.ico = img\COD.ico
+		img\da_division.jpg = img\da_division.jpg
+		img\firewood.jpg = img\firewood.jpg
+		img\girl.jpg = img\girl.jpg
+		img\ninci-logo.png = img\ninci-logo.png
+		img\street_foci.jpg = img\street_foci.jpg
+		img\trident_logo.png = img\trident_logo.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{112A9F1C-1469-42A1-8316-F58F66A5B543} = {DFCCD5AF-34C2-4586-8A28-9F0B17CFC669}
+		{E8E3A40F-C6D0-41A1-95AF-7B9B6B78EA9E} = {DFCCD5AF-34C2-4586-8A28-9F0B17CFC669}
+		{17B29E38-6419-4FF9-8782-52449F1F92CF} = {DFCCD5AF-34C2-4586-8A28-9F0B17CFC669}
+		{8CF3AB22-CA7A-4616-8A60-3998A2533440} = {DFCCD5AF-34C2-4586-8A28-9F0B17CFC669}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {767113D5-210B-4952-B811-6243A8DC0026}
+	EndGlobalSection
+EndGlobal
