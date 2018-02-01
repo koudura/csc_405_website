@@ -1,6 +1,6 @@
 body {
     color: black;
-    background-color: lightblue;
+    background-color: steelblue;
     font-family: Lithos Pro Regular, Arial, sans-serif;
     line-height: 1.4em;
     align-content: center;
@@ -15,11 +15,12 @@ header {
 }
 
 .main-page {
-    background-color: lightblue;
+    background-color: steelblue;
 }
 
 #head {
     width: inherit;
+    z-index: 4;
 }
 
 #head ul {
@@ -31,6 +32,7 @@ header {
     background-color: whitesmoke;
     position: fixed;
     border: inset;
+    z-index: 4;
 }
 
 #head li {
@@ -53,7 +55,7 @@ header {
 }
 
 #head li a:hover {
-    background-color: lightblue;
+    background-color: steelblue;
     box-shadow: 2px 2px 2px #aaaaaa;
 }
 
@@ -71,10 +73,17 @@ header {
     background-image: url("../img/trident_logo.png");
     background-repeat: no-repeat;
     background-position: center;
-    position: fixed;
+    position: absolute;
+    z-index: 1;
 }
 
 .site-logo:hover {
     transform: scale(1.2) rotate(360deg);
 }
 
+#container{
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
