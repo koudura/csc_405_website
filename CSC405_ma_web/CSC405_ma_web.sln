@@ -16,8 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{112A9F1C-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{E8E3A40F-C6D0-41A1-95AF-7B9B6B78EA9E}"
 	ProjectSection(SolutionItems) = preProject
-		css\doc.css = css\doc.css
-		css\style.css = css\style.css
+		..\..\..\..\..\..\xampp\htdocs\prototype-Ninci\css\doc.css = ..\..\..\..\..\..\xampp\htdocs\prototype-Ninci\css\doc.css
+		..\..\..\..\..\..\xampp\htdocs\prototype-Ninci\css\style.css = ..\..\..\..\..\..\xampp\htdocs\prototype-Ninci\css\style.css
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{17B29E38-6419-4FF9-8782-52449F1F92CF}"

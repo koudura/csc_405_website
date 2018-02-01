@@ -3,10 +3,10 @@ html {
 
 body {
     color: black;
+    font-family: Lithos Pro Regular, Arial, sans-serif;
     background-image: url("../img/da_division.jpg");
     background-repeat: no-repeat;
     background-position: inherit;
-    font-family: Lithos Pro Regular, Arial, sans-serif;
     line-height: 1.4em;
     align-content: center;
     margin: 0;
@@ -18,7 +18,7 @@ body {
     background-color: transparent;
     height: 100%;
     background-size: 100%;
-
+    -webkit-filter: blur(25%);
 }
 
 .name-con {
@@ -40,39 +40,31 @@ body {
 #nav-bar {
     align-self: center;
     width: 0;
+    min-width: 0;
     margin-left: 300px;
 }
 
-ul {
-    width: 53vh;
+#nav-bar ul {
+    width: 24.5%;
+    display: flex;
+    max-width: 24.5%;
     list-style-type: none;
-    margin: 50px;
+    margin: 0;
     margin-left: 20%;;
-    padding: 0;
-    overflow: hidden;
+    padding: 0 7px 0 8px;
     background-color: whitesmoke;
-    position: absolute;
-    border-bottom: solid;
-    border-top-style: solid;
+    position: fixed;
+    border: 3px inset;
 }
 
-li {
+#nav-bar li {
     align-items: center;
     font-size: 24px;
     margin-left: 0;
-    float: left;
-    padding-right: 1.725%;
+    padding-right: inherit;
 }
 
-li:last-child{
-    width: 32%
-}
-
-li:first-child{
-    width: 23%;
-}
-
-li a {
+#nav-bar li a {
     display: block;
     color: black;
     text-align: center;
@@ -80,10 +72,15 @@ li a {
     text-decoration: solid;
 }
 
-li a:hover:not(.active) {
+#nav-bar li a:hover:not(.active) {
     background-color: whitesmoke;
 }
 
-li a:hover {
-    background-color: lightblue;
+#nav-bar li a:hover {
+    background-color: steelblue;
+    box-shadow: 2px 2px 2px #aaaaaa;
+}
+
+#site-logo:hover {
+    transform: scale(1.2) rotate(360deg);
 }
